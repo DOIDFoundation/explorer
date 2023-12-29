@@ -28,7 +28,7 @@ const appConfig = {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: "http://explorer-api.testnet.doid.tech/api",
+                http: "https://explorer-api.testnet.doid.tech/api",
                 // for subscriptions
                 ws: ""
             }
