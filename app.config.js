@@ -1,91 +1,26 @@
 const appConfig = {
     // app title
-    name: "Fantom Explorer",
+    name: "DOID Testnet Explorer",
     // app description
     description:
-        "Fantom Explorer allows you to explore and search the Fantom blockchain for transactions, addresses and blocks",
+        "DOID Testnet Explorer allows you to explore and search the DOID Testnet blockchain for transactions, addresses and blocks",
     // app keywords
-    keywords: "fantom, explorer, search, blockchain, crypto, currency",
+    keywords: "doid, explorer, search, blockchain, crypto, currency",
     // apollo client settings
     apollo: {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: 'https://xapi-nodea.fantom.network/',
+                http: "https://rpc.testnet.doid.tech/",
                 // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodeb.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodec.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-noded.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodee.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodef.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodeg.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodeh.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodei.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodej.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodek.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodel.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodem.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-noden.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
+                ws: ""
+            }
         ],
         // index into providers array of default provider or 'random' - takes index randomly
         defaultProviderIndex: "random"
     },
     //
-    useTestnet: false,
+    useTestnet: true,
     // use 'hash' mode in vue router
     routerHashMode: false,
     // testnet config
@@ -93,18 +28,18 @@ const appConfig = {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: 'https://xapi.testnet.fantom.network/api',
+                http: "http://explorer-api.testnet.doid.tech/api",
                 // for subscriptions
-                ws: '',
-            },
-        ],
+                ws: ""
+            }
+        ]
     },
     // progressive web application
     usePWA: true,
     // pwa settings
     pwa: {
         // name used in pwa manifest
-        name: "Fantom Explorer"
+        name: "DOID Testnet Explorer"
     },
     // default options for production build
     build: {
@@ -119,8 +54,8 @@ const appConfig = {
         rewardsEstimation: true,
         ftmVault: true,
         dailyBlocks: true,
-        dailyTxFees: true,
-    },
+        dailyTxFees: true
+    }
 };
 
 if (appConfig.useTestnet) {

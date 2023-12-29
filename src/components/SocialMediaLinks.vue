@@ -1,6 +1,6 @@
 <template>
     <ul class="socialmedialinks no-markers">
-        <li>
+        <!-- <li>
             <a href="https://twitter.com/FantomFDN" target="_blank" rel="nofollow" title="Fantom on Twitter">
                 <icon data="@/assets/svg/social-media2/x.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Twitter</span>
@@ -29,7 +29,7 @@
                 <icon data="@/assets/svg/social-media/github.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Github</span>
             </a>
-        </li>
+        </li> -->
     </ul>
 </template>
 

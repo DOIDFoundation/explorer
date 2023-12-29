@@ -1,8 +1,8 @@
 <template>
     <div class="ftmvault">
-        <FTMVaultBox :amount="available" :title="`${$t('ftmVault.available')} (FTM)`" :ftm-price="ftmPrice" />
-        <FTMVaultBox :amount="collected" :title="`${$t('ftmVault.collected')} (FTM)`" :ftm-price="ftmPrice" />
-        <FTMVaultBox :amount="cPaidOut" :title="`${$t('ftmVault.paidOut')} (FTM)`" :ftm-price="ftmPrice" />
+        <FTMVaultBox :amount="available" :title="`${$t('ftmVault.available')}`" :ftm-price="ftmPrice" />
+        <FTMVaultBox :amount="collected" :title="`${$t('ftmVault.collected')}`" :ftm-price="ftmPrice" />
+        <FTMVaultBox :amount="cPaidOut" :title="`${$t('ftmVault.paidOut')}`" :ftm-price="ftmPrice" />
     </div>
 </template>
 

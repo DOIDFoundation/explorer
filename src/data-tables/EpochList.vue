@@ -178,7 +178,7 @@ export default {
                 },*/
                 {
                     name: 'fee',
-                    label: this.$t('epoch.total_fee') + ' (FTM)',
+                    label: this.$t('epoch.total_fee'),
                     itemProp: 'epoch.epochFee',
                     formatter: (_value) => WEIToFTM(_value),
                     cssClass: 'align-end',

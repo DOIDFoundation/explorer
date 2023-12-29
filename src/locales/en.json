@@ -72,10 +72,6 @@
         {
             "url": "/contracts",
             "title": "Contracts"
-        },
-        {
-            "url": "https://pwawallet.fantom.network/#/",
-            "title": "Wallet"
         }
     ],
 
@@ -94,7 +90,7 @@
         "latest_blocks": "Latest Blocks",
         "latest_transactions": "Latest Transactions",
         "view_all_transactions": "View all transactions",
-        "total_ftm_burned": "Total FTM Burned",
+        "total_ftm_burned": "Total Burned",
         "vault": "The Ecosystem Vault",
         "back_to_home": "@:back_to_home"
     },
