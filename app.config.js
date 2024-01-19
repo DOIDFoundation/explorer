@@ -11,7 +11,7 @@ const appConfig = {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: "https://rpc.testnet.doid.tech/",
+                http: "https://explorer-api.doid.tech/api",
                 // for subscriptions
                 ws: ""
             }
@@ -51,10 +51,10 @@ const appConfig = {
     // feature flags
     flags: {
         networkNodesMap: false,
-        rewardsEstimation: true,
-        ftmVault: true,
+        rewardsEstimation: false,
+        ftmVault: false,
         dailyBlocks: true,
-        dailyTxFees: true
+        dailyTxFees: false
     }
 };
 
