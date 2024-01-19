@@ -1,9 +1,9 @@
 const appConfig = {
     // app title
-    name: "DOID Testnet Explorer",
+    name: "DOID Explorer",
     // app description
     description:
-        "DOID Testnet Explorer allows you to explore and search the DOID Testnet blockchain for transactions, addresses and blocks",
+        "DOID Explorer allows you to explore and search the DOID blockchain for transactions, addresses and blocks",
     // app keywords
     keywords: "doid, explorer, search, blockchain, crypto, currency",
     // apollo client settings
@@ -11,7 +11,7 @@ const appConfig = {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: "https://rpc.testnet.doid.tech/",
+                http: "https://explorer-api.doid.tech/api",
                 // for subscriptions
                 ws: ""
             }
@@ -20,7 +20,7 @@ const appConfig = {
         defaultProviderIndex: "random"
     },
     //
-    useTestnet: true,
+    useTestnet: false,
     // use 'hash' mode in vue router
     routerHashMode: false,
     // testnet config
@@ -39,7 +39,7 @@ const appConfig = {
     // pwa settings
     pwa: {
         // name used in pwa manifest
-        name: "DOID Testnet Explorer"
+        name: "DOID Explorer"
     },
     // default options for production build
     build: {
@@ -51,10 +51,10 @@ const appConfig = {
     // feature flags
     flags: {
         networkNodesMap: false,
-        rewardsEstimation: true,
-        ftmVault: true,
+        rewardsEstimation: false,
+        ftmVault: false,
         dailyBlocks: true,
-        dailyTxFees: true
+        dailyTxFees: false
     }
 };
 

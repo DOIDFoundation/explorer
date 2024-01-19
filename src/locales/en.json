@@ -66,10 +66,6 @@
             "title": "Staking"
         },
         {
-            "url": "/assets",
-            "title": "Assets"
-        },
-        {
             "url": "/contracts",
             "title": "Contracts"
         }
